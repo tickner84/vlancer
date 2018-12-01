@@ -15,6 +15,8 @@ module Vlancer
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+    #use rails scaffolding generator
+	config.app_generators.scaffold_controller = :scaffold_controller
 
   end
 end
